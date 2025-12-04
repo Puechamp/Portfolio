@@ -1,0 +1,17 @@
+/* layout.css: Styles pour la mise en page */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header, .footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
